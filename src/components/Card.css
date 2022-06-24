@@ -1,0 +1,92 @@
+.card{
+	display: flex;
+	flex-direction: column;
+	background: rgba(217, 216, 211, 0.2);
+	position: relative;
+	top: -800px;
+	padding-bottom: 100px;
+	background: url('../../public/images/Ellipse1.png') no-repeat top center;
+}
+
+.card h1{
+	text-align: center;
+	font-size: 3rem;
+	color: #FB5306;
+}
+.photo-cards{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	place-items: center;
+}
+.photo-cards p{
+	text-align: center;
+	margin-top: -15px;
+	font-size: 1.2rem;
+}
+.paint{
+	color: #FB5306;
+	padding: 0;
+	margin: 0;
+}
+.card h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-stretch: ultra-expanded;
+	margin-top: 5px;
+}
+.foot-wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.element-wrap h3{
+	font-size: 1.2rem;
+}
+.element-wrap div{
+    background: linear-gradient(104.8deg, #FB5306 -9.58%, #9E4B24 112.25%);	
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.element-wrap img{
+	transform: translate(10%, 80%);
+	width: 3rem;
+	height: auto;
+}
+.one img{
+	transform: translate(35%, 60%);
+}
+img:nth-child(2) {
+	transform: translate(-145%,95%);
+	width: 30px;
+	height: auto;
+}
+@media screen and (max-width:960px){
+	.card{
+		top: -1250px;
+		flex-direction: column;
+		width: 100vw;
+	}
+	.photo-cards{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.photo-cards img{
+		width: 80vw;
+	}
+	.element-wrap{
+		transform: scale(0.8);
+	}
+	.element-wrap div{
+		transform: scale(0.5);
+	}
+	.element-wrap h3{
+		margin-top: 0;
+	}
+	.foot-wrap{
+		position: relative;
+		top: -70px;
+	}
+}
