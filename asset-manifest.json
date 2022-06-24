@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/stylehouse/static/css/main.198c8890.css",
+    "main.js": "/stylehouse/static/js/main.63853a97.js",
+    "static/js/787.2d2bcfb0.chunk.js": "/stylehouse/static/js/787.2d2bcfb0.chunk.js",
+    "static/media/Ellipse1.png": "/stylehouse/static/media/Ellipse1.80ac807c57638e7c1201.png",
+    "index.html": "/stylehouse/index.html",
+    "main.198c8890.css.map": "/stylehouse/static/css/main.198c8890.css.map",
+    "main.63853a97.js.map": "/stylehouse/static/js/main.63853a97.js.map",
+    "787.2d2bcfb0.chunk.js.map": "/stylehouse/static/js/787.2d2bcfb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.198c8890.css",
+    "static/js/main.63853a97.js"
+  ]
+}
